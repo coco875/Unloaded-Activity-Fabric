@@ -12,11 +12,14 @@ import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.WorldChunk;
 
+import static com.github.inzan123.fabric.components.MyComponents.*;
+
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import static com.github.inzan123.fabric.MyComponents.*;
+import com.github.inzan123.fabric.components.LongArrayComponent;
+import com.github.inzan123.fabric.components.LongComponent;
 
 public class TimeMachine {
     public static long simulateChunk(long timeDifference, ServerWorld world, WorldChunk chunk, int randomTickSpeed) {

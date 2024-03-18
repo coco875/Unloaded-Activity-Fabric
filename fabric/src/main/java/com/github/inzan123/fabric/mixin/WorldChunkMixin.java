@@ -1,8 +1,8 @@
 package com.github.inzan123.fabric.mixin;
 
-import com.github.inzan123.fabric.LongArrayComponent;
 import com.github.inzan123.fabric.UnloadedActivity;
-import com.github.inzan123.fabric.ChunkSimBlocksComponent;
+import com.github.inzan123.fabric.components.ChunkSimBlocksComponent;
+import com.github.inzan123.fabric.components.LongArrayComponent;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;
@@ -25,9 +25,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 
-import java.util.ArrayList;
+import static com.github.inzan123.fabric.components.MyComponents.CHUNKSIMBLOCKS;
 
-import static com.github.inzan123.fabric.MyComponents.CHUNKSIMBLOCKS;
+import java.util.ArrayList;
 
 @Mixin(WorldChunk.class)
 public abstract class WorldChunkMixin extends Chunk {

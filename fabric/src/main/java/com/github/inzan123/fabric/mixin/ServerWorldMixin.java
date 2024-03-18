@@ -1,6 +1,8 @@
 package com.github.inzan123.fabric.mixin;
 
 import com.github.inzan123.fabric.*;
+import com.github.inzan123.fabric.components.LongComponent;
+
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.ChunkPos;
@@ -21,9 +23,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import java.util.function.BooleanSupplier;
 import java.util.function.Supplier;
 
-import static com.github.inzan123.fabric.MyComponents.*;
 import static java.lang.Integer.min;
 import static java.lang.Long.max;
+import static com.github.inzan123.fabric.components.MyComponents.*;
 import static java.lang.Integer.max;
 
 

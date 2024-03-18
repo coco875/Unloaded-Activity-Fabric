@@ -1,10 +1,12 @@
-package com.github.inzan123.fabric;
+package com.github.inzan123.fabric.components;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.world.World;
 
 import java.util.ArrayList;
+
+import com.github.inzan123.fabric.WeatherInfoInterface;
 
 import static java.lang.Math.max;
 import static java.lang.Math.min;

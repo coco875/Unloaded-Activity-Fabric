@@ -1,6 +1,5 @@
 package com.github.inzan123.fabric.mixin.chunk.randomTicks;
 
-import com.github.inzan123.fabric.LongComponent;
 import com.github.inzan123.fabric.OccurrencesAndLeftover;
 import com.github.inzan123.fabric.UnloadedActivity;
 import net.minecraft.block.Block;
@@ -17,8 +16,10 @@ import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 
-import static com.github.inzan123.fabric.MyComponents.LASTENTITYTICK;
 import com.github.inzan123.fabric.Utils;
+import com.github.inzan123.fabric.components.LongComponent;
+
+import static com.github.inzan123.fabric.components.MyComponents.LASTENTITYTICK;
 import static java.lang.Math.floorMod;
 import static java.lang.Math.min;
 

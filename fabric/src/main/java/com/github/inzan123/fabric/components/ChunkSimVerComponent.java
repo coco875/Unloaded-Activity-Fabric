@@ -1,4 +1,4 @@
-package com.github.inzan123.fabric;
+package com.github.inzan123.fabric.components;
 
 import net.minecraft.nbt.NbtCompound;
 

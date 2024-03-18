@@ -1,8 +1,9 @@
 package com.github.inzan123.fabric.mixin;
 
-import com.github.inzan123.fabric.LongComponent;
 import com.github.inzan123.fabric.TimeMachine;
 import com.github.inzan123.fabric.UnloadedActivity;
+import com.github.inzan123.fabric.components.LongComponent;
+
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.util.math.BlockPos;
@@ -17,7 +18,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 
-import static com.github.inzan123.fabric.MyComponents.LASTBLOCKENTITYTICK;
+import static com.github.inzan123.fabric.components.MyComponents.LASTBLOCKENTITYTICK;
 import static java.lang.Long.max;
 
 

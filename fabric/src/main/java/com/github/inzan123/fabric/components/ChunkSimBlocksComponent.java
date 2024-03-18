@@ -1,10 +1,8 @@
-package com.github.inzan123.fabric;
+package com.github.inzan123.fabric.components;
 
 import net.minecraft.nbt.NbtCompound;
 
 import java.util.ArrayList;
-
-import com.github.inzan123.fabric.LongArrayComponent;
 
 public class ChunkSimBlocksComponent implements LongArrayComponent {
     private ArrayList<Long> positions = new ArrayList<>();

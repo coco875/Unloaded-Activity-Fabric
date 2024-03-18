@@ -1,6 +1,6 @@
-package com.github.inzan123.fabric;
+package com.github.inzan123.fabric.components;
 
-import com.github.inzan123.fabric.ChunkSimBlocksComponent;
+import com.github.inzan123.fabric.WeatherInfoInterface;
 
 import dev.onyxstudios.cca.api.v3.block.BlockComponentFactoryRegistry;
 import dev.onyxstudios.cca.api.v3.block.BlockComponentInitializer;
