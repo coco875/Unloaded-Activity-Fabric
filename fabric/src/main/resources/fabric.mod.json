@@ -14,9 +14,9 @@
       "unloadedactivity:magik"
     ],
     "loom:injected_interfaces": {
-      "net/minecraft/block/AbstractBlock": ["com/github/inzan123/SimulateChunkBlocks"],
-      "net/minecraft/block/entity/BlockEntity": ["com/github/inzan123/SimulateBlockEntity"],
-      "net/minecraft/entity/Entity": ["com/github/inzan123/SimulateEntity"]
+      "net/minecraft/block/AbstractBlock": ["com/github/inzan123/fabric/SimulateChunkBlocks"],
+      "net/minecraft/block/entity/BlockEntity": ["com/github/inzan123/fabric/SimulateBlockEntity"],
+      "net/minecraft/entity/Entity": ["com/github/inzan123/fabric/SimulateEntity"]
     },
     "lithium:options": {
       "world.block_entity_ticking.sleeping.furnace": false
@@ -40,13 +40,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.inzan123.UnloadedActivity"
+      "com.github.inzan123.fabric.UnloadedActivity"
     ],
     "cardinal-components": [
-      "com.github.inzan123.MyComponents"
+      "com.github.inzan123.fabric.MyComponents"
     ],
     "modmenu": [
-      "com.github.inzan123.config.UnloadedActivityModMenu"
+      "com.github.inzan123.fabric.config.UnloadedActivityModMenu"
     ]
   },
   "mixins": [
